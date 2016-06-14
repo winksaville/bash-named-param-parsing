@@ -1,4 +1,4 @@
-Bash Named parameter parsing [![CircleCI](https://circleci.com/gh/winksaville/bash-named-param-parsing.svg?style=svg)](https://circleci.com/gh/winksaville/bash-named-param-parsing)
+Bash named parameter parsing [![CircleCI](https://circleci.com/gh/winksaville/bash-named-param-parsing.svg?style=svg)](https://circleci.com/gh/winksaville/bash-named-param-parsing)
 ---
 
 The test script, named-param-parsing supports two paramster p1 and p2.
