@@ -1,5 +1,5 @@
-Bash Named parameter parsing [![CircleCI](https://circleci.com/gh/winksaville/named-param-parasing.svg?style=svg)](https://circleci.com/gh/winksaville/name-param-parsing)
-===
+Bash Named parameter parsing [![CircleCI](https://circleci.com/gh/winksaville/bash-named-param-parsing.svg?style=svg)](https://circleci.com/gh/winksaville/bash-named-param-parsing)
+---
 
 The test script, named-param-parsing supports two paramster p1 and p2.
 The order on the command line doesn't matter, below are some examples:
