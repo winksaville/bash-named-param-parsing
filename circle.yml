@@ -1,0 +1,9 @@
+test:
+  pre:
+    - uname -a
+    - bash --version
+
+  override:
+    - x=$(./named-param-parsing.sh); if [ "$x" == "p1=v1 p2=v2" ]; then echo "OK"; true; else echo "ERR"; false; fi;
+    - x=$(./named-param-parsing.sh p2=xyz); if [ "$x" == "p1=v1 p2=xyz" ]; then echo "OK"; true; else echo "ERR"; false; fi;
+    - x=$(./named-param-parsing.sh p2=two p1=one); if [ "$x" == "p1=one p2=two" ]; then echo "OK"; true; else echo "ERR"; false; fi;
